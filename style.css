@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-image: linear-gradient(120deg,#edcb58, #f08c70);
+color: white;
+font-family: "Poppins", sans-serif;
+min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+form button {
+    color: #f08c70;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    background:#f8813c;
+    color: white;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo li {
+    flex: 1;
+}
+.trash-btn, .complete-btn{
+    background: #ff6f47;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.complete-btn {
+    background: #0fd4de;
+
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+#hobo {
+    padding: 50px;
+    
+    border-color: rgb(22, 177, 169);
+    
+    border-radius: 10%;
+
+    border-width: 5px;
+   
+    border-style:dashed;
+
+    /* */
+    border-bottom-color: #e01160;
+    border-left-color: aquamarine;
+    border-right-color:slateblue;
+    border-top-color: ;
+
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+
+    border-bottom-width: 20px;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 10px;
+
+    border-top-style: dotted;
+    border-right-style:groove;
+    border-left-style:;
+    border-bottom-style:;
+
+    color:darkslategrey;   
+}   
+
+#hobo2 {
+
+}
+
+ul {
+    color:#e01160;
+    font-family:cursive
+}
+
+ol {
+    color:dodgerblue;
+    font-family:fantasy
+}
